@@ -1,0 +1,86 @@
+.coin-details__container {
+  max-width: 1920px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  background-color: rgba(22, 23, 26, 1);
+  padding: 25px;
+}
+
+.coin-details__info {
+  flex: 1;
+  padding: 25px;
+  width: 548px;
+  height: 787px;
+  position: relative;
+}
+
+.coin-details__info::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.coin-details__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.coin-details__title {
+  font-family: "Monserrat" sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.coin-details__description {
+  font-family: "Monserrat" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.coin-details__item {
+  margin-bottom: 20px;
+  gap: 13px;
+}
+
+.coin-details__item strong {
+  font-family: "Monserrat" sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+}
+.coin-details__item span {
+  font-family: "Monserrat" sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.coin-details__chart {
+  width: 1292px;
+  flex: 2;
+  height: 646px;
+  background-color: rgba(22, 23, 26, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

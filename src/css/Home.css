@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.header1 {
+  width: 100%;
+  height: 400px;
+  background-image: url("../assets/header.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-p {
+  width: calc(100% - 688px);
+  text-align: center;
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  white-space: nowrap;
+
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.5px;
+  color: rgba(135, 206, 235, 1);
+  margin: 0;
+}
+
+.paragraf {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: rgba(169, 169, 169, 1);
+  margin: 0;
+}
+
+.crypto-carousel {
+  margin: 45px auto 0;
+  width: calc(100% - 688px);
+  position: relative;
+}
+
+.crypto-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.crypto-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.crypto-h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.crypto-paragraf1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15.75px;
+  font-weight: 500;
+  line-height: 18.46px;
+  margin: 4px 0;
+}
+
+.crypto-paragraf {
+  font-family: "Roboto", sans-serif;
+  font-size: 21.83px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  margin: 4px 0;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.container-crypto {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  background-color: rgba(22, 23, 26, 1);
+  padding-top: 18px;
+}
+
+.main-div {
+  width: calc(100% - 680px);
+  margin: 0 auto;
+  background-color: rgba(22, 23, 26, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  max-width: 639px;
+  height: 42px;
+  line-height: 42px;
+  letter-spacing: 0.25px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 1232px;
+  height: 62px;
+  background-color: rgba(22, 23, 26, 1);
+  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  border-radius: 4px;
+  padding-left: 38px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.15px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.table-header {
+  padding-top: 0;
+  width: 1232px;
+  height: 57px;
+  background-color: rgba(135, 206, 235, 1);
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+}
+
+.header-coin {
+  width: 445px;
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 57px;
+  letter-spacing: 0.15px;
+}
+
+.header-right {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-item {
+  flex: 1;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 57px;
+  letter-spacing: 0.15px;
+}
+
+.coin-list {
+  width: 1232px;
+}
+
+.coin-row {
+  height: 93px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+
+.coin-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 445px;
+  padding-left: 16px;
+}
+
+.coin-info img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.coin-name {
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.coin-subname {
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(169, 169, 169, 1);
+}
+
+.coin-data {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.coin-price {
+  flex: 1;
+  text-align: right;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.coin-change {
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  flex: 1;
+  text-align: right;
+}
+
+.coin-marketcap {
+  flex: 1;
+  text-align: right;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.sub-name {
+  gap: 5px;
+}
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.pagination {
+  height: 93px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.eyes {
+  height: 30px;
+  width: 30px;
+}
